@@ -7,8 +7,8 @@ import jakarta.persistence.Table;
 import org.hibernate.annotations.UuidGenerator;
 
 @Entity
-@Table(name = "tree_view")
-public class Tree {
+@Table(name = "xmas_tree")
+public class XMasTree {
 
     @Id
     @UuidGenerator
@@ -16,8 +16,8 @@ public class Tree {
     private String id;
 
     /**
-     * The number of leaves the tree currently has.
+     * The number of needles the x-mas tree currently has.
      */
-    @Column(name = "leaves")
-    private Long leaves;
+    @Column(name = "needles")
+    private Long needles;
 }
