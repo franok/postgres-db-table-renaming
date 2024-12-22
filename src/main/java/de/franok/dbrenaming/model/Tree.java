@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 import org.hibernate.annotations.UuidGenerator;
 
 @Entity
-@Table(name = "tree")
+@Table(name = "tree_view")
 public class Tree {
 
     @Id
