@@ -8,7 +8,7 @@ import org.hibernate.annotations.UuidGenerator;
 
 @Entity
 @Table(name = "xmas_tree")
-public class Tree {
+public class XMasTree {
 
     @Id
     @UuidGenerator
@@ -16,8 +16,8 @@ public class Tree {
     private String id;
 
     /**
-     * The number of leaves the tree currently has.
+     * The number of needles the x-mas tree currently has.
      */
     @Column(name = "needles")
-    private Long leaves;
+    private Long needles;
 }
